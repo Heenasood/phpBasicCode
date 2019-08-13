@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('clouddb.czovtari25os.ap-southeast-2.rds.amazonaws.com', 'admin', 'Admin123', 'registration', 3308);
+$db = mysqli_connect("heenaphpserver.mysql.database.azure.com", "heenaadmin@heenaphpserver", "Admin123", "registration", 3306);
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
